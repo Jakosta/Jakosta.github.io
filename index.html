@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi Curriculum</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Orbitron&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d816e19d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+        <div class="header-info">
+            <h1>Stephen Lucas</h1>
+            <p>Desarrollador Web</p>
+            <ul>
+              <li>E-mail: stephen.lucas@example.com</li>
+              <li>Telefono: +911 46120235</li>
+              <li>Fecha de nacimiento: 12/6/1986</li>
+              <li>Domicilio: 6798 Ranchview Dr</li>
+            </ul>
+          </div>
+        <div class="header-foto">
+            <img src="https://randomuser.me/api/portraits/men/88.jpg" alt="Stephen" >
+        </div>
+	</header>
+	<main>
+		<section>
+			<h2> <i class="fa-sharp fa-solid fa-briefcase"></i> Experiencia Laboral</h2>
+			<ul>
+				<li>
+					<h3>Desarrollador Web</h3>
+					<p>PipoArgenti SA, Bs As</p>
+					<p>2016 - Presente</p>
+					<ul>
+						<li>Desarrollo y mantenimiento de los sitios web de la empresa utilizando HTML, CSS y JavaScript</li>
+						<li>Diseño e implementación de nuevas características y funcionalidades</li>
+						<li>Colaboración con equipos multifuncionales para garantizar el éxito de los proyectos</li>
+					</ul>
+				</li>
+				<li>
+					<h3>Desarrollador Front-end</h3>
+					<p>Agencia XD, Rosario</p>
+					<p>2018 - 2020</p>
+					<ul>
+						<li>Creación de interfaces web receptivas y fáciles de usar utilizando Bootstrap y jQuery</li>
+						<li>Desarrollo de temas y plugins de WordPress personalizados</li>
+						<li>Optimización del rendimiento y la velocidad del sitio web</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2> <i class="fa-solid fa-user-graduate"></i> Educación</h2>
+			<ul>
+				<li>
+					<h3>Tecnicatura en programación informática</h3>
+					<p>Universidad de la vida, Buenos Aires</p>
+					<p>2013 - 2017</p>
+				</li>
+			</ul>
+		</section>
+        <button id="btn2" onclick="toggleSkills()">MOSTRAR HABILIDADES</button>
+		<section id="section" style="display: none;">
+			<h2> <i class="fa-solid fa-laptop-file"></i> Trabajo con: </h2>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>Bootstrap</li>
+				<li>jQuery</li>
+				<li>WordPress</li>
+			</ul>
+		</section>
+	</main>
+    <script src="script.js"></script>
+</body>
+</html>
